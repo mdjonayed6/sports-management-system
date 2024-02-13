@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.address {
+    background-color: rgb(60, 219, 60);
+    height: 60px;
+    width: 100%;
+    padding: 5px;
+}
+
+.address-section {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+
+}
+
+.address-bar {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu-image {
+    padding: 10px;
+}
+
+.menu-list>ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.menu-list>ul>li {
+    margin-left: 30px;
+}
+
+.menu-list a {
+    text-decoration: none;
+}

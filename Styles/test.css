@@ -1,0 +1,15 @@
+.container {
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    margin: 500px;
+}
