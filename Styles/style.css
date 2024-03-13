@@ -27,7 +27,6 @@
 }
 
 .menu-container {
-    display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-around;
@@ -37,14 +36,13 @@
     padding: 10px;
 }
 
-.menu-list>ul {
-    display: flex;
-    gap: 20px;
+.menu-list ul {
+    gap: 25px;
     list-style: none;
     font-size: 1.2rem;
 }
 
-.menu-list>ul>li {
+.menu-list ul li {
     margin-left: 30px;
 }
 
@@ -55,16 +53,17 @@
 
 .menu-list a:hover {
     color: rgba(14, 3, 96, 0.96);
-    background-color: rgba(172, 169, 169, 0.786);
+    /* background-color: rgba(172, 169, 169, 0.786); */
     border-radius: 10%;
-    padding: 2px;
-    /* text-decoration: underline rgba(43, 41, 41, 0.998); */
+    /* padding: 2px; */
+    /* text-decoration: 3px solid underline rgba(43, 41, 41, 0.998); */
+    border-bottom: 2px dotted red;
 }
 
 section {
     margin-top: 30px;
     background-size: cover;
-    background-image: url("../Images/img_slider/img5.jpg");
+    background-image: url("../Images/img_slider/img4.jpg");
     height: 70vh;
     background-repeat: no-repeat;
     width: 100%;

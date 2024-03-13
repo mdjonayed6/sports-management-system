@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../Images/icons/login.png" type="image/x-icon">
+    <style>
+        /* Background image styling */
+        body {
+            background-image: linear-gradient( 50deg, rgba(92, 144, 8, 0.277) , rgba(0, 0, 255, 0.272)), url('../Images/sports2.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex justify-center items-center">
+    
+
+    <div class="max-w-md w-full md:w-2/3 lg:w-1/2 xl:w-1/3 p-8 bg-white rounded-lg shadow-lg">
+        <div class="flex items-center justify-center">
+            <img src="../Images/player.webp" class="w-24 h-24" alt="">
+        </div>
+        <h2 class="text-3xl font-bold text-gray-800 mb-9 text-center">Login Panel</h2>
+        <hr class="mb-9">
+
+        <form action="#" method="POST">
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
+                <input type="email" name="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                <input type="password" name="password" id="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter your password" required>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mb-4 md:mb-0">Sign In</button>
+                <a href="forgetPass.html" class="text-blue-500 hover:text-blue-700 text-sm">Forgot Password?</a>
+            </div>
+        </form>
+        <p class="mt-4 text-center text-gray-600">Don't have an account? <a href="registration.html" class="text-blue-500 hover:text-blue-700 font-bold"> Sign Up </a></p>
+    </div>
+</body>
+</html>
