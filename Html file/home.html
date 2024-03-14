@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonayed">
+    <meta name="description" content="description">
+    <title>ISC | IUBAT Sports Club</title>
+    <link rel="shortcut icon" href="../Images/iubat_logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS Style Added here  -->
+    <style>
+    .hidden {
+    display: none;      
+         }
+    </style>
+</head>
+
+<body>
+
+    <nav class="bg-[#0E1133] py-6">
+        <div class="container mx-auto lg:px-24 px-8">
+            <div class="flex justify-between text-white">
+
+                <div class="flex justify-center items-center space-x-8">
+                    <!-- left side navbar design-->
+                    <div class="flex gap-2">
+                        <img class="rounded-full w-14 shadow-md" src="../Images/sports1.jpg" alt="">
+                        <img class="rounded-full w-14 shadow-md" src="../Images/iubat_logo.png" alt="">
+                    </div>
+                    <div class="space-x-4 text-lg font-semibold hidden lg:flex">
+                        <a class="hover:text-orange-600 duration-300" href="#">Home</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">Game</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">New Application</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">News</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">About</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">Contact Us</a>
+                    </div>
+                </div>
+
+                <!--======= LogIn and SignUp section ========-->
+                <div class="space-x-6 hidden lg:flex">
+                    <button class="font-semibold text-lg">
+                        <a href="login.html">LogIn</a>
+                    </button>
+                    <button
+                        class="bg-orange-600 px-6 py-3 rounded-md text-lg font-semibold hover:bg-transparent border-2 border-orange-600 duration-300">
+                        <a href="registration.html">SignUp</a></button>
+                </div>
+                 <!--======= LogIn and SignUp section End ========-->
+                 
+                <div class="lg:hidden">
+                    <img class="w-7 h-7" src="../Images/assets/more.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header section start from here  -->
+    <header class="bg-[#12174E] pt-24 flex flex-col justify-center items-center py-12">
+        <div class="container lg:px-24 px-8">
+            <div class="grid grid-cols-12 gap-6"> 
+                <div class=" col-span-6 text-white space-y-6">
+                    <h1 class="text-5xl lg:text-7xl font-bold">Exploring the Heart of Sports <br> 
+                        <span class="text-orange-600 text-5xl"> Your Ultimate Persona</span></h1> <hr>
+                    <p class="opacity-70 text-xl text-justify"> 
+                       
+                        Join us at IUBAT Sports Club (ISP) and be part of a dynamic community where passion meets performance. We're dedicated to fostering a culture of excellence and sportsmanship among our students and faculty. From exciting matches to friendly games, our wide range of sports activities has something everyone can enjoy and excel in.
+                    </p>
+                    
+                    <div class="space-x-4 flex  items-center">
+                        <button class="bg-orange-600 px-6 py-3 rounded-md text-lg font-semibold hover:bg-transparent border-2 border-orange-600 duration-300">
+                            Get a Quote</button>
+                        <button class="flex text-lg font-semibold">
+                            <img class="mr-3" src="../Images/assets/play-button.png" alt="">
+                           
+                            <a href="https://www.facebook.com/mjbdcom/videos/750667580305396/">
+                                Play Video
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class=" col-span-6">
+                    <img src="../Images/player2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main section start from here  -->
+    <main>
+        <section class="py-6">
+             <!-- ======== quote Section Start============= -->
+                
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- cart 1 -->
+                <div class="p-8 shadow-xl rounded-md">
+                    <div class="w-36 h-36 bg-red-600 border-gray-300 rounded-full mx-auto flex items-center justify-center">
+                        <img class="rounded-full" src="../Images/AlimullahSir.jpg" alt="">
+                    </div>
+
+                    <div class="text-center mt-6 space-y-4">
+                        <h5 class="text-lg font-medium opacity-70">Prof Dr M Alimullah Miyan <br>(1942-2017)</h5>
+                        <p id="sports-paragraph" class="text-lg opacity-70 text-justify">Sports are not merely about physical activity or winning competitions; they encompass a myriad of values that are essential for personal and professional growth. Through sports, we learn the importance of teamwork, discipline, perseverance, and leadership - qualities that are indispensable in every aspect of life. At our university, we recognize the significance of sports in nurturing well-rounded individuals. That is why we have dedicated resources and facilities to promote a culture of athleticism and sportsmanship. Whether it's cricket, football, basketball, or any other sport, we encourage all our students to participate actively and reap the benefits that sports offer.</p>
+                        <button id="read-more-button">Read More...</button>
+                    </div>
+                </div>
+                <!-- cart 2 -->
+                <div class="p-8 shadow-xl rounded-md">
+                    <div class="w-36 h-36 shadow-md border-gray-300 rounded-full mx-auto flex items-center justify-center">
+                        <img class="rounded-full" src="../Images/university.png" alt="">
+                    </div>
+
+                    <div class="text-center mt-6 space-y-4">
+                        <h5 class="text-lg font-medium opacity-70"> Our Functionality <br>(1942-2017)</h5>
+                        <p id="sports-paragraph" class="text-lg opacity-70 text-justify"> We are proud to introduce the IUBAT Sports Club (ISP), dedicated to tracking various sports activities including Cricket, Football etc. Our platform facilitates scheduling and managing matches, providing users with access to upcoming fixtures and match results. Additionally, players, teams, and leagues can register through the website, streamlining organization and communication within our vibrant sports community. Stay updated with the latest news, achievements, and events through our dedicated sections. Join us in fostering a sense of camaraderie and engagement by participating in our interactive forums and discussion boards. Welcome to the dynamic world of sports at IUBAT University!</p>
+                        <button id="read-more-button">Read More...</button>
+                    </div>
+                </div>
+                <!-- cart 3 -->
+                <div class="p-8 shadow-xl rounded-md">
+                    <div class="w-36 h-36 bg-red-600 border-gray-300 rounded-full mx-auto flex items-center justify-center">
+                        <img class="rounded-full" src="../Images/AlimullahSir.jpg" alt="">
+                    </div>
+
+                    <div class="text-center mt-6 space-y-4">
+                        <h5 class="text-lg font-medium opacity-70">Prof Dr M Alimullah Miyan <br>(1942-2017)</h5>
+                        <p id="sports-paragraph" class="text-lg opacity-70 text-justify">Sports are not merely about physical activity or winning competitions; they encompass a myriad of values that are essential for personal and professional growth. Through sports, we learn the importance of teamwork, discipline, perseverance, and leadership - qualities that are indispensable in every aspect of life. At our university, we recognize the significance of sports in nurturing well-rounded individuals. That is why we have dedicated resources and facilities to promote a culture of athleticism and sportsmanship. Whether it's cricket, football, basketball, or any other sport, we encourage all our students to participate actively and reap the benefits that sports offer.</p>
+                        <button id="read-more-button">Read More...</button>
+                    </div>
+                </div>
+            <!-- ======== Quote Section End here============= -->
+        </section>
+        <section class="mt-[20rem]">
+            <div class="text-center mb-24">
+                <h1 class="text-5xl lg:text-7xl font-bold opacity-70 mb-6">What <span
+                        class="text-orange-600">Jonayed</span> Can do..!!! </h1>
+                <p class="w-[50%] mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam saepe aliquam laborum quidem deserunt sed asperiores consectetur quas, est nesciunt voluptas illum suscipit repellendus veniam.</p>
+            </div>
+
+
+            <div class="container mx-auto lg:px-24 px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- cart 1 -->
+                    <div class="p-8 shadow-xl rounded-md">
+                        <div class="w-20 h-20 bg-green-600 rounded-full mx-auto flex items-center justify-center">
+                            <img src="../Images/assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center mt-6 space-y-4">
+                            <h5 class="text-lg font-medium opacity-70">Easy To Use</h5>
+                            <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button>Read More...</button>
+                        </div>
+                    </div>
+                    <!-- cart 2 -->
+                    <div class="p-8 shadow-xl rounded-md">
+                        <div class="w-20 h-20 bg-yellow-600 rounded-full mx-auto flex items-center justify-center">
+                            <img src="../Images/assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center mt-6 space-y-4">
+                            <h5 class="text-lg font-medium opacity-70">Easy To Use</h5>
+                            <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button>Read More...</button>
+                        </div>
+                    </div>
+                    <!-- cart 3 -->
+                    <div class="p-8 shadow-xl rounded-md">
+                        <div class="w-20 h-20 bg-blue-600 rounded-full mx-auto flex items-center justify-center">
+                            <img src="../Images/assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center mt-6 space-y-4">
+                            <h5 class="text-lg font-medium opacity-70">Easy To Use</h5>
+                            <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button>Read More...</button>
+                        </div>
+                    </div>
+                      <!-- cart 4 -->
+                    <div class="p-8 shadow-xl rounded-md">
+                        <div class="w-20 h-20 bg-purple-600 rounded-full mx-auto flex items-center justify-center">
+                            <img src="../Images/assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center mt-6 space-y-4">
+                            <h5 class="text-lg font-medium opacity-70">Easy To Use</h5>
+                            <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button>Read More...</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- footer section start from here  -->
+    <footer>
+<!-- Address section start -->
+<div class="bg-[#0E1133] py-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <p class="address-bar flex items-center text-white">
+            <a href="index.html">
+                <img src="../Images/icons/school-icon.png" alt="" class="mr-2">
+            </a>
+            <span>Sector-10, Uttara, Dhaka</span>
+        </p>
+        <p class="address-bar flex items-center text-white">
+            <a href="https://mail.google.com/mail/u/0/">
+                <img src="../Images/icons/email.png" alt="email icon" class="mr-2">
+            </a>
+            <span>info@iubat.edu</span>
+        </p>
+        <p class="address-bar flex items-center text-white">
+            <img src="../Images/icons/phone.png" alt="" class="mr-2">
+            <span>(88 02) 55091801-5</span>
+        </p>
+        <p class="address-bar flex items-center text-white">
+            <a href="https://www.google.com/maps/dir//Embankment+Drive+Road,+Dhaka+1230/@23.888248,90.3082579,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3755c469610d01b9:0xaa41c726134f443b!2m2!1d90.3906595!2d23.8882699?entry=ttu"
+                target="_blank" class="mr-2">
+                <img src="../Images/icons/map.png" alt="">
+            </a>
+            <span>Map</span>
+        </p>
+    </div>
+</div>
+<!-- Address section end here -->
+    </footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const paragraph = document.getElementById("sports-paragraph");
+    const button = document.getElementById("read-more-button");
+    
+    button.addEventListener("click", function() {
+        if (paragraph.classList.contains("hidden")) {
+            paragraph.classList.remove("hidden");
+            button.textContent = "Read Less";
+        } else {
+            paragraph.classList.add("hidden");
+            button.textContent = "Read More...";
+        }
+    });
+});
+
+    </script>
+</body>
+
+</html>
